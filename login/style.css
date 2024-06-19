@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Container_Main {
+    display: flex;
+    width: auto;
+    height: 607px;
+    background-image: linear-gradient(to right top, #a300de, #8f24df, #7a33df, #633cde, #4a43db, #3657e5, #1e69ec, #0079f1, #0098fb, #00b0f3, #00c5e1, #19d6ce);
+    align-items: center;
+}
+@media (max-width: 480px) {
+	.Container_Main {
+        width: auto;
+        height: 800px;
+	}
+}
+.Container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 300px;
+    height: 265px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+}
+.input-group {
+    width: 266.05px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.Login {
+    font-weight: bolder;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    background-color:  #0079f1;
+    color: black;
+}
+.Login:hover {
+    background-color: cornflowerblue;
+}
+.Login:active {
+    background-color: lightskyblue;
+}
+.Login_Ac {
+    font-size: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+}
+.Letter_ed {
+    height: 23px;
+    font-size: 12px;
+    border: 1px solid cadetblue;
+    padding: 3px;
+}
